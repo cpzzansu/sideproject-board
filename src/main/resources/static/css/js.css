@@ -112,6 +112,39 @@ body{
     padding-top: 100px;
     padding-bottom: 100px;
 }
-
+.logo-box{
+    width: 500px;
+    margin: 50px;
+    align-items: center;
+}
+.logo-content{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logo-content-font{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+.login-box{
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 4px 11px 0px rgba(0, 0, 0, 0.3);
+}
+.login-input{
+    width: 370px;
+    height: 50px;
+    padding: 14px 16px;
+}
+.btn-box {
+    padding-top: 10px;
+}
+#login-form{
+    margin-top: 3px;
+}
   
 
