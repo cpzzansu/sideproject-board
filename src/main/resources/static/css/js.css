@@ -108,7 +108,10 @@ body{
 .main-content-like-icon{
    margin-right: 5px;
 }
-
+.padding-t-b-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
   
 
