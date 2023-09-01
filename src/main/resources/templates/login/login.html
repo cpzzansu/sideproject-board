@@ -44,13 +44,41 @@
               <div class="bottom-border"><a href="#">비밀번호를 잊으셨나요?</a></div>
             </div>
             <div class="col-auto btn-box">
-              <div class="form-control btn btn-success" id="addBtn" >새 계정 만들기</div>
+              <div class="form-control btn btn-success" id="addBtn" data-bs-toggle="modal" data-bs-target="#addModal">새 계정 만들기</div>
             </div>
           </form>
         </div>
     </div>
   </div>
   <!-- 로그인화면 종료 -->
+  <div class="modal" id="addModal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header row">
+          <div class="d-flex">
+            <h2 class="modal-title">가입하기</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <p>빠르고 쉽게 가입할 수 있습니다.</p>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6 ms-auto">
+              <input class="input-col-6">
+            </div>
+            <div class="col-md-6 ms-auto">
+              <input class="input-col-6">
+            </div>
+          </div>
+          <p>Modal body text goes here.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- 푸터 시작 -->
   <div class="footer-box">
     <div class="text-center">문의는 cpzzansu@gmail.com을 통해 해주시면 감사하겠습니다.<br>JS © 2023</div>
